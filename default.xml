@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="yp"    fetch="https://git.yoctoproject.org"/>
+    <remote name="oe"    fetch="https://github.com/openembedded"/>
+    <remote name="rz"    fetch="https://github.com/renesas-rz"/>
+    <remote name="ea"    fetch="https://github.com/embeddedartists"/>
+
+    <project name="poky"                remote="yp" path="sources/poky"                revision="dc4827b3660bc1a03a2bc3b0672615b50e9137ff" upstream="scarthgap"/>
+    <project name="meta-arm"            remote="yp" path="sources/meta-arm"            revision="950a4afce46a359def2958bd9ae33fc08ff9bb0d" upstream="scarthgap"/>
+    <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="9287a355b338361e42027ce371444111a791d64f" upstream="scarthgap"/>
+    <project name="meta-openembedded"   remote="oe" path="sources/meta-openembedded"   revision="67ad83dd7c2485dae0c90eac345007af6195b84d" upstream="scarthgap"/>
+
+    <project name="meta-renesas"        remote="rz" path="sources/meta-renesas"        revision="refs/tags/RZG3E-BSP-1.0.0"/>
+
+    <project name="meta-ea-rz"          remote="ea" path="sources/meta-ea-rz"          revision="1d6e37dddab5c9b7afb41846d8979d5e41d2acf5" upstream="scarthgap">
+        <linkfile src="scripts/ea-setup-release.sh" dest="ea-setup-release.sh"/>
+    </project>
+
+    <project name="meta-ea-dx"          remote="ea" path="sources/meta-ea-dx"          revision="7b7b2db1ac1405a7d48c17980cfb8f9c8d0c91d5" upstream="scarthgap"/>
+</manifest>
