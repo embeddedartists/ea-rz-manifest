@@ -17,5 +17,5 @@
         <linkfile src="scripts/ea-setup-release.sh" dest="ea-setup-release.sh"/>
     </project>
 
-    <project name="meta-ea-dx"          remote="ea" path="sources/meta-ea-dx"          revision="71277d2612223ee1c2117ab5a8cb06ed32e848f4" upstream="scarthgap"/>
+    <project name="meta-ea-dx"          remote="ea" path="sources/meta-ea-dx"          revision="8f435e7fef5f996ddc8c4e2ba60b4ffa6c4ab9af" upstream="scarthgap"/>
 </manifest>
