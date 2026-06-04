@@ -13,7 +13,7 @@
 
     <project name="meta-renesas"        remote="rz" path="sources/meta-renesas"        revision="refs/tags/RZG3E-BSP-1.0.0"/>
 
-    <project name="meta-ea-rz"          remote="ea" path="sources/meta-ea-rz"          revision="e3508d9cef3a817728762244516364b311cf4125" upstream="scarthgap">
+    <project name="meta-ea-rz"          remote="ea" path="sources/meta-ea-rz"          revision="e7fc6bc4ac3240196494b58f5dad8f67f9e117d5" upstream="scarthgap">
         <linkfile src="scripts/ea-setup-release.sh" dest="ea-setup-release.sh"/>
     </project>
 
