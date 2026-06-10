@@ -5,6 +5,7 @@
     <remote name="oe"    fetch="https://github.com/openembedded"/>
     <remote name="rz"    fetch="https://github.com/renesas-rz"/>
     <remote name="ea"    fetch="https://github.com/embeddedartists"/>
+    <remote name="mx"    fetch="https://github.com/memryx"/>
 
     <project name="poky"                remote="yp" path="sources/poky"                revision="dc4827b3660bc1a03a2bc3b0672615b50e9137ff" upstream="scarthgap"/>
     <project name="meta-arm"            remote="yp" path="sources/meta-arm"            revision="950a4afce46a359def2958bd9ae33fc08ff9bb0d" upstream="scarthgap"/>
@@ -13,9 +14,12 @@
 
     <project name="meta-renesas"        remote="rz" path="sources/meta-renesas"        revision="refs/tags/RZG3E-BSP-1.0.0"/>
 
-    <project name="meta-ea-rz"          remote="ea" path="sources/meta-ea-rz"          revision="e7fc6bc4ac3240196494b58f5dad8f67f9e117d5" upstream="scarthgap">
+    <project name="meta-ea-rz"          remote="ea" path="sources/meta-ea-rz"          revision="86c8e92afba2e3c89bca7b9830fd67f46b7d5df5" upstream="scarthgap">
         <linkfile src="scripts/ea-setup-release.sh" dest="ea-setup-release.sh"/>
     </project>
 
     <project name="meta-ea-dx"          remote="ea" path="sources/meta-ea-dx"          revision="faa5ea6135aaf4caeb43a6c577437563f9b6b3f1" upstream="scarthgap"/>
+
+    <project name="meta-ea-memx"        remote="ea" path="sources/meta-ea-memx"        revision="46504e9851693b8529e220231a945957f452b709" upstream="scarthgap"/>
+    <project name="memx-yocto-renesas"  remote="mx" path="sources/memx-yocto-renesas"  revision="15ee1bb3b723dcb187d533a7fb620d02500ca7b7" upstream="main"/>
 </manifest>
