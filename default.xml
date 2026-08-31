@@ -14,11 +14,11 @@
 
     <project name="meta-renesas"        remote="rz" path="sources/meta-renesas"        revision="refs/tags/RZG3L-BSP-1.0.0"/>
 
-    <project name="meta-ea-rz"          remote="ea" path="sources/meta-ea-rz"          revision="86c8e92afba2e3c89bca7b9830fd67f46b7d5df5" upstream="scarthgap">
+    <project name="meta-ea-rz"          remote="ea" path="sources/meta-ea-rz"          revision="c705791d20be5ecf1368eb8e29ebb9e8ec432f3f" upstream="scarthgap">
         <linkfile src="scripts/ea-setup-release.sh" dest="ea-setup-release.sh"/>
     </project>
 
-    <project name="meta-ea-dx"          remote="ea" path="sources/meta-ea-dx"          revision="c705791d20be5ecf1368eb8e29ebb9e8ec432f3f" upstream="scarthgap"/>
+    <project name="meta-ea-dx"          remote="ea" path="sources/meta-ea-dx"          revision="faa5ea6135aaf4caeb43a6c577437563f9b6b3f1" upstream="scarthgap"/>
 
     <project name="meta-ea-memx"        remote="ea" path="sources/meta-ea-memx"        revision="46504e9851693b8529e220231a945957f452b709" upstream="scarthgap"/>
     <project name="memx-yocto-renesas"  remote="mx" path="sources/memx-yocto-renesas"  revision="15ee1bb3b723dcb187d533a7fb620d02500ca7b7" upstream="main"/>
