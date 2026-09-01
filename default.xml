@@ -18,7 +18,7 @@
         <linkfile src="scripts/ea-setup-release.sh" dest="ea-setup-release.sh"/>
     </project>
 
-    <project name="meta-ea-dx"          remote="ea" path="sources/meta-ea-dx"          revision="faa5ea6135aaf4caeb43a6c577437563f9b6b3f1" upstream="scarthgap"/>
+    <project name="meta-ea-dx"          remote="ea" path="sources/meta-ea-dx"          revision="151015070a006af2965c4219c21ac3b262ee01dd" upstream="scarthgap"/>
 
     <project name="meta-ea-memx"        remote="ea" path="sources/meta-ea-memx"        revision="46504e9851693b8529e220231a945957f452b709" upstream="scarthgap"/>
     <project name="memx-yocto-renesas"  remote="mx" path="sources/memx-yocto-renesas"  revision="15ee1bb3b723dcb187d533a7fb620d02500ca7b7" upstream="main"/>
